@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main
+{
+int choice=0;
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:printf("food item-burger\n price-Rs129");
+break;
+case 2:printf("food item-pasta\n price-Rs179");
+break;
+case 3:printf("food item-french fries\n price-Rs99");
+break;
+case 4:printf("food item-sandwich\n price-Rs149");
+break;
+case 5:printf("food item-pizza\n price-Rs239");
+break;
+default:printf("choice other than 1,2,3,4,5 cases");
+}
+return 0;
+}
